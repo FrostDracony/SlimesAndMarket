@@ -3,5 +3,6 @@
 	"name": "Slimes and Market",
 	"author": "FrostDracony",
 	"description": "A mod for SlimeRancher that allows you to sell all types of slimes! Credits to KomiksPL (Discord: KomiksPL#3882) for the amazing, original idea!",
-	"version": "1.0",
+	"version": "1.1",
+	"load_after": [ "quicksilver_rancher", "frostys_quicksilver_rancher" ]
 }

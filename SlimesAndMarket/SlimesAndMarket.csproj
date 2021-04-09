@@ -37,6 +37,9 @@
     <Reference Include="Assembly-CSharp_publicized">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Slime Rancher\publicized_assemblies\Assembly-CSharp_publicized.dll</HintPath>
     </Reference>
+    <Reference Include="LargoLibrary">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SRML\Mods\LargoLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="SRML">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Slime Rancher\SlimeRancher_Data\Managed\SRML.dll</HintPath>
     </Reference>
@@ -53,7 +56,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="ModdedThings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
