@@ -56,9 +56,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands.cs" />
+    <Compile Include="ExtraSlimes.cs" />
     <Compile Include="Main.cs" />
-    <Compile Include="ModdedThings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
